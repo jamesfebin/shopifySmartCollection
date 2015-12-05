@@ -11,9 +11,9 @@ def checkIfPresent(collections,item):
             return True
     return False
 
-API_KEY = 'f4d656257f2542f2d3a0f3b8cf4a6b65'
-PASSWORD = '37e6b3faa10b8a3bb504cb925184b878'
-SHARED_SECRET = '6d697bf07889c8ac0e89e64dc993a5de'
+API_KEY = 'API KEY'
+PASSWORD = 'PASSWORD'
+SHARED_SECRET = 'SHARED_SECRET'
 shop_url = "https://%s:%s@botre.myshopify.com/admin" % (API_KEY, PASSWORD)
 shopify.ShopifyResource.set_site(shop_url)
 shopify.Session.setup(api_key=API_KEY, secret=SHARED_SECRET)
